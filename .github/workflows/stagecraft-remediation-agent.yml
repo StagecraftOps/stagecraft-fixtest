@@ -45,4 +45,4 @@ jobs:
             PR for that fix alone. Do not explore or read files unrelated to that one fix.
           claude_args: |
             --max-turns 80
-            --allowedTools "Bash(*)"
+            --allowedTools "Bash(*),Read,Edit,MultiEdit,Write,Glob,Grep"
