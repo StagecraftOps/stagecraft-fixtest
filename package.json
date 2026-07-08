@@ -1,0 +1,13 @@
+{
+  "name": "stagecraft-fixtest",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
+  }
+}
